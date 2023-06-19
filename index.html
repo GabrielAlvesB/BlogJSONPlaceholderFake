@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scr/css/estilo.css">
     <title>JSON Placeholder Fake</title>
 </head>
 <body>
-    <h1>Blog Fake</h1>
+    <div class="container">
+        <h1>Blog Fake</h1>
 
-    <fieldset>
-        <legend>Inserir um novo post</legend>
+        <fieldset>
+            <legend>Inserir um novo post</legend>
 
-        <div>
-            <input type="text" id="titleField" placeholder="Titulo do post">
-        </div>
-        <div>
-            <textarea id="bodyField" cols="30" rows="10"></textarea>
-        </div>
-        <div>
-            <button id="inserirButton">Inserir</button>
-        </div>
-    </fieldset>
+            <div>
+                <input type="text" id="titleField" placeholder="Titulo do post">
+            </div>
+            <div>
+                <textarea id="bodyField" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button id="inserirButton">Inserir</button>
+            </div>
+        </fieldset>
 
-    <div class="posts"></div>
-
+        <div class="posts"></div>
+    </div>
     <script src="scr/Js/script.js"></script>
 </body>
 </html>
